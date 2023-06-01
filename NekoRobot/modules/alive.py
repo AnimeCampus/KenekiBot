@@ -38,11 +38,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================Neko====================== """
-file1 = "https://graph.org/file/d0b82f0836933ae9c1bc4.jpg"
-file2 = "https://graph.org/file/aa6466492733fdb55c255.jpg"
-file3 = "https://graph.org/file/06b56256e0ab12d28942d.jpg"
-file4 = "https://graph.org/file/719a77fb5e08ac6dd0d6f.jpg"
-file5 = "https://graph.org/file/f5e26baea5e09d3fb45e6.jpg"
+file1 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file2 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file3 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file4 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file5 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
 """ =======================Neko====================== """
 
 START_TIME = datetime.utcnow()
@@ -78,7 +78,7 @@ async def hmm(yes):
     NekoX += f"**♡ Python-telegram-bot Version :** `{ptb}`\n\n"
     NekoX += f"**♡ Telethon Version :** `{tlhver}`\n\n"
     NekoX += f"**♡ Pyrogram Version :** `{pyrover}`\n\n"
-    NekoX += "**♡ My Master :** [𝚃𝙾𝙳𝙾𝚁𝙾𝙺𝙸 • Ṩ๏𝚛𝚌𝚎г𝚎г](https://t.me/MH17_KUNAL) "
+    NekoX += "**♡ My Master :** [Nᴀɴᴏ](https://t.me/SexyNano) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
     BUTTON = [
         [
