@@ -122,11 +122,11 @@ NEKO_STICKERS = (
 PM_START_TEXT = """
 ────「 [{}](https://graph.org/file/03e0a8175f7c66e56b8d9.jpg) 」────
 *Hola! {},*
-*Meow Meow, Don't Touch Me Without My Permission!*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+*Human relationships are chemical reactions..!*
+━━━━━━━━━━━━━━━━━━━━━━━
 ❍ *Uptime:* `{}`
 ❍ `{}` *Users, Across* `{}` *Chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
+━━━━━━━━━━━━━━━━━━━━━━━
 ➛ Try The Guidelines Button Below To Know My Abilities ××
 """
 
