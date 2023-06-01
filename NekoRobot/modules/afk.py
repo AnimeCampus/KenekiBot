@@ -19,7 +19,7 @@ from NekoRobot.modules.users import get_user_id
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
 
-AFKVID = "https://telegra.ph/file/54bc5cf9c942d017fc4fb.mp4"
+AFKVID = "https://graph.org/file/85612252cba9810d4eff4.mp4"
 
 
 def afk(update, context):
@@ -37,7 +37,7 @@ def afk(update, context):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_video(
-            AFKVID, caption="Byii Byiii {}!".format(fname)
+            AFKVID, caption="Bye Bye {}!".format(fname)
         )
     except BadRequest:
         pass
