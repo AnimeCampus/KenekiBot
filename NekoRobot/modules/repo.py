@@ -34,9 +34,8 @@ PHOTO = "https://graph.org/file/6a2506bdf72802406b9a2.mp4"
 @register(pattern=("/repo"))
 async def awake(event):
     NEKO = """
-         We Are So Happy To Announce That We Have Public Our Repo. ✨🥀
-         ━━━━━━━━━━━━━━━━━━━━━━━
-Powered By:- {@Wolfwood_Bot}
+
+Powered By:- {JujutsuHighNetwork}
 """
 
     BUTTON = [
