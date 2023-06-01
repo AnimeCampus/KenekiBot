@@ -16,16 +16,16 @@ class Config(object):
 
     API_ID = 16743442  # integer value, dont use ""
     API_HASH = "12bbd720f4097ba7713c5e40a11dfd2a"
-    TOKEN = "6286654828:AAEKAxfoaxSUfOizXuZ-nfjE2X16xKcMApg"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5939957095:AAFbOBIh6wLtIKrrjrYIwZGXOEvNTBFlGDo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     REDIS_URL = "redis://default:neko69@redis-18084.c289.us-west-1-2.ec2.cloud.redislabs.com:18084/Neko-Free-db"
-    MONGO_DB = "NekoRobot"
+    MONGO_DB = "KenRobot"
     HELP_IMG = ""
     TEMP_DOWNLOAD_DIRECTORY = "./"
     MONGO_DB_URI = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"
     OWNER_ID = 6198858059  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "SexyNano"
-    SUPPORT_CHAT = "Anime_Krew"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "JHBots"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001935950378
     )  # Prints any new group the bot is added to, prints just the name and ID.
