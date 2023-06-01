@@ -37,7 +37,7 @@ def afk(update, context):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_video(
-            AFKVID, caption="Bye Bye {}!".format(fname)
+            AFKVID, caption="BAI BAI 🥷 {}!".format(fname)
         )
     except BadRequest:
         pass
