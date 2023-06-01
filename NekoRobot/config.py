@@ -23,8 +23,8 @@ class Config(object):
     HELP_IMG = ""
     TEMP_DOWNLOAD_DIRECTORY = "./"
     MONGO_DB_URI = "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority"
-    OWNER_ID = 6299128233  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "MH17_KUNAL"
+    OWNER_ID = 6198858059  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "SexyNano"
     SUPPORT_CHAT = "Anime_Krew"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001935950378
@@ -37,11 +37,11 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgresql://kunalgaikwad932244:tIQq5nmiW7KY@ep-little-wood-723080.ap-southeast-1.aws.neon.tech/neondb"  # needed for any database modules
     DB_URL = "postgresql://kunalgaikwad932244:tIQq5nmiW7KY@ep-little-wood-723080.ap-southeast-1.aws.neon.tech/neondb"
     LOAD = []
-    BOT_USERNAME = "Wolfwood_Bot"
+    BOT_USERNAME = "Ken_Kaneki_ProBot"
     ARQ_API_URL = "arq.hamker.dev"
     ARQ_API_KEY = "CPYPCC-ZGUYAQ-RUMHTL-KMEAYY-ARQ"
     ERROR_LOGS = -1001909608236
-    BOT_NAME = "ᴡᴏʟғᴡᴏᴏᴅ"
+    BOT_NAME = "Ken Keneki"
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     OPENWEATHERMAP_ID = ""
     WEBHOOK = False
