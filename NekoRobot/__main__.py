@@ -112,15 +112,15 @@ HELP_MSG = "Click The Button Below To Get Help Menu In Your Dm."
 START_MSG = "I'm Awake Already!\n<b>Haven't Slept Since:</b> <code>{}</code>"
 
 NEKO_STICKERS = (
-    "CAACAgUAAx0CVp075gABQ_aMZFHof4uytabwx98iVYlQtS30SO8AAg0OAAIYKjBWX61FLMIfZTcvBA", 
-    "CAACAgUAAx0CVp075gABQ_coZFIAAcgceKkBepLzJe4ip7DE0OGjAAJiDAACQ4WRVhPmJH5vnLhgLwQ",
-    "CAACAgUAAx0CVp075gABQ_dZZFIBzbCItb25FgqAxOib-3mX9NQAAncKAAKPq5FWGY6vZX1AaQsvBA",
-    "CAACAgUAAx0CVp075gABQ_diZFICGeGtCB0MZL-C9ozaBOIJuKQAAssJAAKmiJBWkOnQowRL1dUvBA",
-    "CAACAgUAAx0CVp075gABQ_dmZFICOVGarhrHCuKht_fJMUoyL14AAkMMAAJgSpBWAx9YgxkgThMvBA",
+    "CAACAgUAAx0CVp075gABSPjQZHgBWi060yyR-0OBw4nnnilFY4wAAlkMAAJ7DMBX69f-9uGn7-wvBA", 
+    "CAACAgUAAx0CVp075gABSPjQZHgBWi060yyR-0OBw4nnnilFY4wAAlkMAAJ7DMBX69f-9uGn7-wvBA",
+    "CAACAgUAAx0CVp075gABSPjQZHgBWi060yyR-0OBw4nnnilFY4wAAlkMAAJ7DMBX69f-9uGn7-wvBA",
+    "CAACAgUAAx0CVp075gABSPjQZHgBWi060yyR-0OBw4nnnilFY4wAAlkMAAJ7DMBX69f-9uGn7-wvBA",
+    "CAACAgUAAx0CVp075gABSPjQZHgBWi060yyR-0OBw4nnnilFY4wAAlkMAAJ7DMBX69f-9uGn7-wvBA",
 )
 
 PM_START_TEXT = """
-────「 [{}](https://graph.org/file/9cebba927eef1c3a3e0ea.jpg) 」────
+────「 [{}](https://graph.org/file/03e0a8175f7c66e56b8d9.jpg) 」────
 *Hola! {},*
 *Meow Meow, Don't Touch Me Without My Permission!*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -148,7 +148,7 @@ buttons = [
             text="Support 🚑", url=f"https://telegram.dog/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="Updates 📢", url="https://telegram.dog/Anime_Campus"
+            text="Updates 📢", url="https://t.me/JujutsuHighNetwork"
         ),
     ],
 ]
@@ -164,11 +164,11 @@ HELP_STRINGS = """
 """
 
 GROUP_START_IMG = (
-    "https://graph.org/file/cffe2fe1303657abb5979.jpg",
-    "https://graph.org/file/07d4a0f6fd1abd5425541.jpg",
-    "https://graph.org/file/544cf3a98b369a5d7f233.jpg",
-    "https://graph.org/file/befaa5861f0b9627fbedd.jpg",
-    "https://te.legra.ph/file/435db9bc7a88decf6c9fa.jpg",
+    "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg",
+    "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg",
+    "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg",
+    "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg",
+    "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg",
 )
 
 DONATE_STRING = """❂ I'm Free for Everyone ❂"""
@@ -313,7 +313,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Anime_Krew",
+                            url="https://t.me/JujutsuHighNetwork",
                         ),
                     ]
                 ]
@@ -677,7 +677,7 @@ def donate(update: Update, context: CallbackContext) -> None:
                         [
                             InlineKeyboardButton(
                                 text="📢 Updates",
-                                url="https://telegram.dog/Anime_Krew",
+                                url="https://t.me/JujutsuHighNetwork",
                             ),
                             InlineKeyboardButton(
                                 text="🚑 Support",
