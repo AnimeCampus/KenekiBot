@@ -10,7 +10,7 @@ async def wish(e):
     if e.is_reply:
         mm = random.randint(1, 100)
         lol = await e.get_reply_message()
-        fire = "https://telegra.ph/file/3fe0f7dedb81528a57313.jpg"
+        fire = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
         await neko.send_file(
             e.chat_id,
             fire,
@@ -19,7 +19,7 @@ async def wish(e):
         )
     if not e.is_reply:
         mm = random.randint(1, 100)
-        fire = "https://telegra.ph/file/3fe0f7dedb81528a57313.jpg"
+        fire = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
         await neko.send_file(
             e.chat_id,
             fire,
