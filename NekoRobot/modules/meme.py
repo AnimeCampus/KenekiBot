@@ -19,7 +19,7 @@ from NekoRobot.modules.helper_funcs.alternate import typing_action
 from NekoRobot.modules.helper_funcs.chat_status import is_user_admin
 from NekoRobot.modules.helper_funcs.extraction import extract_user
 
-GIF_ID = "CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE"
+GIF_ID = "CgACAgQAAx0CVp075gABSPksZHgPBTlRuk5E71jvv6xJbo5SdjgAAjoDAAKnUQVTYSxHiom15H4vBA"
 
 
 @register(pattern="^/truth ?(.*)")
