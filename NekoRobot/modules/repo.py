@@ -35,7 +35,7 @@ PHOTO = "https://graph.org/file/6a2506bdf72802406b9a2.mp4"
 async def awake(event):
     NEKO = """
 
-Powered By:- {JujutsuHighNetwork}
+Powered By:- {@JujutsuHighNetwork}
 """
 
     BUTTON = [
