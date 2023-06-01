@@ -11,11 +11,11 @@ from NekoRobot.events import register
 
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://graph.org/file/f5e26baea5e09d3fb45e6.jpg"
-file2 = "https://graph.org/file/719a77fb5e08ac6dd0d6f.jpg"
-file3 = "https://graph.org/file/aa6466492733fdb55c255.jpg"
-file4 = "https://graph.org/file/06b56256e0ab12d28942d.jpg"
-file5 = "https://graph.org/file/d0b82f0836933ae9c1bc4.jpg"
+file1 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file2 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file3 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file4 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
+file5 = "https://graph.org/file/03e0a8175f7c66e56b8d9.jpg"
 """ =======================CONSTANTS====================== """
 
 
@@ -28,7 +28,7 @@ async def proboyx(event):
     on = await bot.send_file(
         event.chat_id,
         file=file2,
-        caption=f"♡ Hey {betsy}, I'm Wolfwood\n♡ I'm Created By [Jujutsu High](tg://user?id=5885920877)\n♡ Click The Button Below To Get Your Info",
+        caption=f"♡ Hey {betsy}, I'm Ken\n♡ I'm Created By [Jujutsu High](https://t.me/JujutsuHighNetwork)\n♡ Click The Button Below To Get Your Info",
         buttons=button,
     )
 
@@ -65,7 +65,7 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        NEKO = "YOUR DETAILS BY NEKO \n\n"
+        NEKO = "YOUR DETAILS BY KEN \n\n"
         NEKO += f"FIRST NAME : {PRO.first_name} \n"
         NEKO += f"LAST NAME : {PRO.last_name}\n"
         NEKO += f"YOU BOT : {PRO.bot} \n"
