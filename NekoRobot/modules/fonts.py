@@ -1,7 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-
-from NekoRobot import pbot as Client
+from NekoRobot import tbot as Client
 from NekoRobot.utils.fonts import Fonts
 
 
