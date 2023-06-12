@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from NekoRobot import tbot 
 from NekoRobot.utils.fonts import Fonts
+from NekoRobot import pgram
 
-
-@tbot.on_message(filters.command(["font", "fonts"," f"]))
+@pgram.on_message(filters.command(["font", "fonts"," f"]))
 async def style_buttons(c, m, cb=False):
     buttons = [
         [
@@ -53,7 +53,7 @@ async def style_buttons(c, m, cb=False):
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
 
 
-@tbot.on_callback_query(filters.regex("^nxt"))
+@pgram.on_callback_query(filters.regex("^nxt"))
 async def nxt(c, m):
     if m.data == "nxt":
         buttons = [
