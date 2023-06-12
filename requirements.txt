@@ -100,3 +100,4 @@ httpx==0.24.0
 httpx[http2]
 async-timeout==4.0.2
 loguru
+pyrogram==2.0.103
